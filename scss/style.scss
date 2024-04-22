@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#F2EAE2;
+}
+.bosss{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 171px;
+    .boss{
+        width: 307px;
+        height: 500px;
+        background:  #E28625;
+        border-radius   : 10px 0px 0px 10px;
+        .flex{
+            img{
+                margin-top: 48px;
+                margin-left: 48px;
+            }
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47.88px;
+                color: #F2F2F2;
+                margin-top: 35px;
+                margin-left: 48px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #fff;
+                margin-top: 25px;
+                margin-left: 48px;
+            }
+            button{
+                padding: 11px 31.5px 12px 31.5px;
+                background: #F2F2F2;
+                color: #E28625;
+                border-radius: 50px;
+                border: none;
+                margin-top: 83px;
+                margin-left: 48px;
+
+            }
+        }
+    }
+    .mini-boss{
+        width: 307px;
+        height: 500px;
+        background: #006971;
+        .flex{
+            img{
+                margin-top: 48px;
+                margin-left: 48px;
+            }
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47.88px;
+                color: #F2F2F2;
+                margin-top: 35px;
+                margin-left: 48px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #fff;
+                margin-top: 25px;
+                margin-left: 48px;
+            }
+            button{
+                padding: 11px 31.5px 12px 31.5px;
+                background: #F2F2F2;
+                color:  #006971;
+                border-radius: 50px;
+                border: none;
+                margin-top: 83px;
+                margin-left: 48px;
+
+            }
+        }
+    }
+    .tree-boss{
+        border-radius: 0px 10px 10px 0px;
+        width: 307px;
+        height: 500px;
+        background: #004140;
+        .flex{
+            img{
+                margin-top: 48px;
+                margin-left: 48px;
+            }
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47.88px;
+                color: #F2F2F2;
+                margin-top: 35px;
+                margin-left: 48px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #fff;
+                margin-top: 25px;
+                margin-left: 48px;
+            }
+            button{
+                padding: 11px 31.5px 12px 31.5px;
+                background: #F2F2F2;
+                color: #004140;
+                border-radius: 50px;
+                border: none;
+                margin-top: 83px;
+                margin-left: 48px;
+
+            }
+        }
+    }
+}
